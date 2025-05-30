@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__list{
+    list-style: none;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+}
+.nav__link{
+color: white;
+text-decoration: none;
+font-family: "Inter";
+font-size: 18px;
+font-weight: 400;
+}
+.search__box{
+ background-color: white;
+ width: 300px;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 14px 14px;
+}
+input{
+ border:none;
+outline: none;
+color:#666666;
+font-family: "Inter";
+font-size: 18px;
+font-weight: 400;
+}
+.black{
+    background-color: #000000;
+}
+.header__bg{
+    background-image: url('images/slider2\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-color: black;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.header__title{
+    font-family: "Inter";
+    color: white;
+font-size: 40px;
+padding-top: 30px;
+padding-bottom: 90px;
+font-weight: 700;
+}
+.header__btn{
+    background-color: #76B900;
+    width: 109px;
+height: 55px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-family: "Inter";
+font-size: 16px;
+font-weight: 700;
+border:none;
+transition: 0.3s ease-in-out;
+}
+.hero__title{
+    font-family: "Inter";
+font-size: 48px;
+font-weight: 700;
+color: black;
+margin: 41px 325px;
+width: 100%;
+}
+.hero__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 40px;
+}
+.hero__item{
+    transition: 0.3s ease-in-out;
+    width: 290px;
+    text-align: center;
+    box-shadow: 0px 17px 27px -4px #000000;
+}
+.hero__item--text{
+    font-family: "Inter";
+font-size: 18px;
+font-weight: 700;
+text-align: center;
+
+padding-left: 20px;
+padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 37px;
+}
+.two{
+margin:41px 62px;
+}
+.three{
+    margin: 41px 503px;
+}
+.hero__item img{
+    display: block;
+}
+.hero__item--shopnow{
+    font-family: "Inter";
+font-size: 14px;
+font-weight: 500;
+text-align: center;
+padding-bottom: 20px;
+}
+.right__title{
+    font-family: "Inter";
+font-size: 48px;
+font-weight: 700;
+color: #67B900;
+}
+.right__text{
+    font-family: "Inter";
+font-size: 18px;
+font-weight: 700;
+color: #000000;
+padding-top: 28px;
+padding-bottom: 58px;
+}
+.right__btn{
+    border: none;
+    width: 233px;
+height: 62px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: "Inter";
+font-size: 18px;
+font-weight: 700;
+color: #000000;
+background-color: #76B900;
+transition: 0.3s ease-in-out;
+}
+.wrapper{
+    padding-top: 68px;
+    display: flex;
+    justify-content: space-between;
+    gap: 38px;
+}
+.footer__nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 25px;
+}
+.footer__mintext{
+    font-family: "Inter";
+font-size: 18px;
+font-weight: 800;
+}
+
+
+/* KING OF HOVERS */
+
+.nav__link:hover{
+    color: #67B900;
+}
+.header__btn:hover , .right__btn:hover{
+    transition: 0.3 ease-in-out;
+    box-shadow: 5px 0px 30px 4px white;
+    border-radius: 5px;
+    color: white;
+    transform: scale(1.2);
+}
+.hero__item:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    background-color: #67B900;
+    color: white;
+    .hero__item--text{
+        color: white;
+    }
+    .hero__item--shopnow{
+        color: white;
+    }
+}
